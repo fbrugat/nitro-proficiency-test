@@ -1,0 +1,48 @@
+/* Main styles file */
+#top-buttons {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+#top-buttons .left {
+    float: left;
+}
+
+#top-buttons .right {
+    float: right;
+}
+
+#posts {
+    width: 100%;
+    float: left;
+}
+
+#posts h3 {
+    width: 100%;
+    float: left;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+#posts .group {
+    width: 100%;
+    float: left;
+}
+
+#posts .group .item {
+    width: 50%;
+    margin: 0 auto 10px auto;
+}
+  
+#posts .group .item .header-image {
+    background-image: url('/assets/placeholder-profile.jpeg');
+    background-size: cover;
+}
+
+#posts .group .item .buttons {
+    position: absolute;
+    right: 15px;
+}
+
+#posts .group .item .buttons button { margin-left: 10px; }

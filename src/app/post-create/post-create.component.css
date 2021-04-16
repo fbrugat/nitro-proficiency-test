@@ -1,0 +1,12 @@
+/* Styles for the Post Create component */
+mat-dialog-content mat-form-field {
+    width: 100%;
+}
+
+mat-dialog-content mat-form-field textarea {
+    height: 50px;
+}
+
+mat-dialog-actions button {
+    margin-right: 15px;
+}

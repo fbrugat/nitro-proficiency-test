@@ -1,0 +1,35 @@
+<h2 mat-dialog-title>{{title}}</h2>
+
+<mat-dialog-content [formGroup]="form">
+
+  <mat-form-field>
+
+    <input matInput placeholder="Author" formControlName="author">
+
+  </mat-form-field>
+
+  <mat-form-field>
+
+    <input matInput placeholder="Location" formControlName="location">
+
+  </mat-form-field>
+
+  <mat-form-field>
+
+    <textarea matInput placeholder="Text" formControlName="text"></textarea>
+
+  </mat-form-field>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+
+  <button class="mat-raised-button" (click)="close()">
+    Close
+  </button>
+
+  <button class="mat-raised-button mat-primary" (click)="save()">
+    Create
+  </button>
+
+</mat-dialog-actions>
